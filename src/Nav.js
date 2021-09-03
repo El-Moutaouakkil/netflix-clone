@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import "./Nav.css";
 
 function Nav() {
-    const [show, handleShow] = useState(true);
+    const [show, handleShow] = useState(false);
     const navbarTransition = () => {
         if (window.scrollY > 100) {
-            handleShow(false);
-        } else {
             handleShow(true);
+        } else {
+            handleShow(false);
         }
     };
 // navbar show/hide on scroll effect 
