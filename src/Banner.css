@@ -1,7 +1,7 @@
 .banner {
     /* width: 100%; */
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 448px;
     /* height: 720px; */
     object-fit: contain;
@@ -9,6 +9,7 @@
 
     display: flex;
     align-items: center;
+
 }
 
 .banner-content {
