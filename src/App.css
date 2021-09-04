@@ -11,11 +11,11 @@ html, body{
 }
 body{
   overflow-x: hidden;
+  /* background-color: rgba(0, 0, 0, 0.938); */
 
 }
 .App {
   /* text-align: center; */
-  background-color: rgba(0, 0, 0, 0.938);
 }
 
 .App-logo {

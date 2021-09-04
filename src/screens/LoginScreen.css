@@ -1,0 +1,9 @@
+
+.loginScreen{
+	height: 100vh;
+}
+.loginScreen-logo{
+	object-fit: contain;
+	width: 130px;
+	margin-left: 1.5em;
+}
