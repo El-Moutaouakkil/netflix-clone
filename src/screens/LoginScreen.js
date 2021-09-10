@@ -11,6 +11,7 @@ function LoginScreen() {
                     alt='loginScreen logo'
                 />
                 <button className='loginScreen-button'>Sign In</button>
+                <div className='loginScreen-gradient' />
                 <div className='loginScreen-body'>
                     <>
                         <h1>Unlimited films, TV programmes and more.</h1>
@@ -20,10 +21,15 @@ function LoginScreen() {
                             restart your membership.
                         </h3>
                     </>
-                <form className='login-subscription'>
-                    <input type='email' name='email' id='email' className='subscription-email'/>
-                    <button className='login-button'>Sign Up</button>
-                </form>
+                    <form className='login-subscription'>
+                        <input
+                            type='email'
+                            name='email'
+                            id='email'
+                            className='subscription-email'
+                        />
+                        <button className='login-button'>Sign Up</button>
+                    </form>
                 </div>
             </div>
         </div>
