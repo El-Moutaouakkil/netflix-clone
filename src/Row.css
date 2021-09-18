@@ -23,8 +23,8 @@
     scrollbar-width: none; /* Firefox */
 }
 .row-poster {
-    max-height: 100px;
     object-fit: contain;
+    max-height: 100px;
     margin-right: 0.6em;
     width: 100%;
     transition: transform 0.3s;
@@ -35,5 +35,5 @@
 }
 
 .row-posterLarge {
-	max-height: 230px;
+    max-height: 230px;
 }

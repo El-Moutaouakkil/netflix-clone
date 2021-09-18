@@ -37,11 +37,11 @@
 }
 .loginScreen-gradient {
     width: 100%;
-    height: 40%;
+    height: 80%;
     background-image: linear-gradient(
         360deg,
         transparent,
-        rgba(37, 37, 37, 0.61),
+        rgba(4, 4, 4, 0.61),
         rgb(0, 0, 0)
     );
     opacity: 0.8;
@@ -85,13 +85,15 @@ button {
 }
 .login-button {
     border-left: none;
-    padding: 0.5em 1em;
+    padding: 0.5em 0.8em;
     border-radius: 0 2px 2px 0;
+    font-size: 0.8em;
 }
 
 .subscription-email {
-    padding: 0 0.5em;
+    padding: 0 1em;
     border-radius: 2px 0 0 2px;
     border-right: none;
-    width: 230px;
+    width: 270px;
+    max-width: 70%;
 }
