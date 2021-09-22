@@ -8,6 +8,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import { useDispatch } from "react-redux";
 import { login, logout, selectUser } from "./features/userSlice.js";
 import { useSelector } from "react-redux";
+import ProfileScreen from "./screens/ProfileScreen.js";
 
 function App() {
     const user = useSelector(selectUser);
@@ -38,9 +39,14 @@ function App() {
                     {!user ? (
                         <LoginScreen />
                     ) : (
-                        <Route path='/'>
-                            <HomeScreen />
-                        </Route>
+                        <>
+                            <Route path='/profile'>
+                                <ProfileScreen />
+                            </Route>
+                            <Route exact path='/'>
+                                <HomeScreen />
+                            </Route>
+                        </>
                     )}
                 </Switch>
             </Router>
