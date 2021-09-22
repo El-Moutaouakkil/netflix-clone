@@ -6,7 +6,10 @@
     display: grid;
     place-content: center;
 }
-
+.edit-profile{
+	font-weight: 400;
+	padding :.5em 0em;
+}
 .pfScreen-container {
     /* height: 100%; */
     width: 80vw;

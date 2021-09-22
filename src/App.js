@@ -26,7 +26,7 @@ function App() {
                 );
             } else {
                 console.log("user is signed out ");
-                dispatch(logout);
+                dispatch(logout());
             }
         });
         return unscubscribe;

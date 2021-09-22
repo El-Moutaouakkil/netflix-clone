@@ -4,7 +4,6 @@ import auth from "../firebase";
 import {
     createUserWithEmailAndPassword,
     signInWithEmailAndPassword,
-    onAuthStateChanged,
 } from "firebase/auth";
 import userSlice from "../features/userSlice";
 
